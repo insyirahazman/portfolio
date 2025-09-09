@@ -27,7 +27,7 @@ function Hero() {
             </div>
             <div className={styles.info}>
                 <h1>Hi! I'm Insyirah Azman</h1>
-                <h2>Artificial Intelligence Student <span role="img" aria-label="robot">🤖</span></h2>
+                <h2>Artificial Intelligence Student</h2>
                 <br />
                 <span>
                     <a href="mailto:insyirazman@gmail.com" target="_blank" style={{ marginRight: "16px" }}>
@@ -40,7 +40,9 @@ function Hero() {
                         <img src={githubIcon} alt="GitHub Icon" />
                     </a>
                 </span>
-                <p>I love exploring data, experimenting with ML and DL models, and learning new technologies. This portfolio is where I share my journey, projects, and skills as I grow in the field of tech.</p>
+                <p className={styles.description}>
+                    I love exploring data, experimenting with ML and DL models, and learning new technologies. This portfolio is where I share my journey, projects, and skills as I grow in the field of tech.
+                </p>
                 <a href={CV}>
                     <button className="hover">Resume</button>
                 </a>
