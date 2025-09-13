@@ -8,7 +8,7 @@ import linkedinLight from '../../assets/linkedinLight.svg'
 import linkedinDark from '../../assets/linkedinDark.svg'
 import githubLight from '../../assets/githubLight.svg'
 import githubDark from '../../assets/githubDark.svg'
-import CV from '../../assets/Resume.pdf'
+import CV from '../../assets/resume.pdf'
 import { useTheme } from '../../common/ThemeContext'
 
 function Hero() {
