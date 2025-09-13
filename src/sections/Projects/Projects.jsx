@@ -7,7 +7,23 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
-        <ProjectCard src={nvdia} link="https://github.com/insyirahazman/Stock-Prediction-using-LSTM.git" h3={nvdia} />
+        <ProjectCard 
+            src={nvdia} 
+            link="https://github.com/insyirahazman/Stock-Prediction-using-LSTM.git" 
+            h3="NVDIA Stock Prediction" 
+            p="An LSTM model to predict NVDIA stock prices" />
+        
+        <ProjectCard 
+            src={nvdia} 
+            link="https://github.com/insyirahazman/Stock-Prediction-using-LSTM.git" 
+            h3="NVDIA Stock Prediction" 
+            p="An LSTM model to predict NVDIA stock prices" />
+
+        <ProjectCard 
+            src={nvdia} 
+            link="https://github.com/insyirahazman/Stock-Prediction-using-LSTM.git" 
+            h3="NVDIA Stock Prediction" 
+            p="An LSTM model to predict NVDIA stock prices" />
       </div>
     </section>
   );

@@ -6,7 +6,7 @@ export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(
-    () => { localStorage.getItem('theme') || 'light' } // check the theme at local storage
+    () => localStorage.getItem('theme') || 'light'
 );
 
 useEffect(() => {
