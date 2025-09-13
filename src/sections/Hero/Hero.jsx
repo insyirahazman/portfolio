@@ -43,7 +43,7 @@ function Hero() {
                 <p className={styles.description}>
                     I love exploring data, experimenting with ML and DL models, and learning new technologies. This portfolio is where I share my journey, projects, and skills as I grow in the field of tech.
                 </p>
-                <a href={CV}>
+                <a href={CV} download>
                     <button className="hover">Resume</button>
                 </a>
             </div>
