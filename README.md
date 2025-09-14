@@ -27,9 +27,14 @@ Modern, lightweight personal developer portfolio built with React 19 and Vite. I
 | Linting          | ESLint (React hooks + refresh plugins) |
 | Deployment       | Netlify    |
 
+
 ## Contributing
 
-This repository primarily serves as a personal portfolio
+This repository primarily serves as a personal portfolio.
+
+## Credits
+
+Certificate icons created by Smashicons - Flaticon https://www.flaticon.com/free-icons/certificate
 
 ## References
 

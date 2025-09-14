@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 20px;
+    text-align: center;
+    height: 100dvh;
+    min-height: 500px;
+
+    a{
+        width: fit-content;
+        text-decoration: none;
+        color: #fff;
+        transition: transform 200ms ease-in-out;
+    }
+}
+
+.skill-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+
+.skill-tag {
+	background: #16296b;
+	color: #fff;
+	font-weight: bold;
+	padding: 12px 20px;
+	border-radius: 12px;
+	display: inline-block;
+	font-size: 1rem;
+}
