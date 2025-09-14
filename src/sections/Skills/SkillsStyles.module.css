@@ -22,9 +22,12 @@
 }
 
 .skill-list {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    background: rgba(22, 41, 107, 0.08);
+    padding: 24px;
+    border-radius: 18px;
 }
 
 .skill-tag {
