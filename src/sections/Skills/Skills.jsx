@@ -1,13 +1,16 @@
-import SkillCard from "./SkillCard";
-import styles from './Skills.module.css';
+import styles from './SkillsStyles.module.css';
 
 function Skills({ skills = [] }) {
     return (
-        <div className={styles['skill-list']}>
-            {skills.map(skill => (
-                <span className={styles['skill-tag']} key={skill}>{skill}</span>
-            ))}
-        </div>
+        <section id="skills" className={styles.container}>
+            <div className={styles['skill-list']}>
+                {skills.map(skill => (
+                    <div className={styles['skill-container']} key={skill.name || skill}>
+                        <span className={styles['skill-tag']}>{skill.name || skill}</span>
+                    </div>
+                ))}
+            </div>
+        </section>
     );
 }
 
